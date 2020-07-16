@@ -1,12 +1,10 @@
 FROM debian:9
 LABEL maintainer="Graham Lillico"
 
-ENV DEBIAN_FRONTEND noninteractive
-
 # Update packages to the latest version
 RUN apt-get update \
-&& apt-get upgrade \
-&& apt-get autoremove
+&& apt-get -y upgrade \
+&& apt-get -y autoremove
 
 # Install required packages.
 # Remove packages that are nolonger requried.
@@ -20,8 +18,8 @@ python-setuptools \
 python-wheel \
 systemd \
 systemd-sysv \
-&& apt-get autoremove \
-&& apt-get clean \
+&& apt-get -y autoremove \
+&& apt-get -y clean \
 && rm -rf /var/lib/apt/lists/* \
 && rm -rf /usr/share/doc/* \
 && rm -rf /usr/share/man/*
