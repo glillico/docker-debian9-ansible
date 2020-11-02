@@ -1,6 +1,6 @@
 # Debian 9 Docker Image for Ansible Testing
 
-[![Latest](https://github.com/glillico/docker-debian9-ansible/workflows/Latest/badge.svg)](https://github.com/glillico/docker-debian9-ansible/actions?query=workflow%3ALatest)
+[![latest](https://github.com/glillico/docker-debian9-ansible/workflows/latest/badge.svg)](https://github.com/glillico/docker-debian9-ansible/actions?query=workflow%3Alatest)
 
 A docker container using Debian 9 with Ansible installed for playbook and role testing.
 
