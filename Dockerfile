@@ -28,6 +28,9 @@ systemd-sysv \
 && rm -rf /usr/share/doc/* \
 && rm -rf /usr/share/man/*
 
+# Upgrade pip.
+RUN pip install --upgrade pip
+
 # Install ansible.
 RUN pip --no-cache-dir install ansible
 
