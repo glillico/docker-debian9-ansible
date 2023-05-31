@@ -1,5 +1,10 @@
 # Debian 9 Docker Image for Ansible Testing
 
+DEPRECATED - Debian 9 is End Of Life (EOL) as of June 30th 2022. For alternatives please see the below.
+
+  - [Debian 10](https://github.com/glillico/docker-debian10-ansible)
+  - [Debian 11](https://github.com/glillico/docker-debian11-ansible)
+
 [![latest](https://github.com/glillico/docker-debian9-ansible/workflows/latest/badge.svg)](https://github.com/glillico/docker-debian9-ansible/actions?query=workflow%3Alatest)
 
 A docker container using Debian 9 with Ansible installed for playbook and role testing.
